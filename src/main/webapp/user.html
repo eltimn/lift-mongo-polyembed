@@ -1,0 +1,34 @@
+<div lift="surround?with=base-wrap;at=content">
+  <span lift="ProfileLocUser.title"></span>
+  <div class="content">
+    <div class="page-header">
+      <span lift="ProfileLocUser.header"></span>
+    </div>
+    <div lift="ProfileLocUser.profile" class="row">
+      <div class="span12">
+        <table>
+          <tr>
+            <td width="100"><strong>Name</strong></td>
+            <td><span id="id_name"></span></td>
+          </tr>
+          <tr>
+            <td><strong>Location</strong></td>
+            <td><span id="id_location"></span></td>
+          </tr>
+          <tr>
+            <td><strong>Member Since</strong></td>
+            <td><span id="id_whencreated"></span></td>
+          </tr>
+          <tr>
+            <td><strong>Bio</strong></td>
+            <td><span id="id_bio"></span></td>
+          </tr>
+        </table>
+      </div>
+      <div class="span4">
+        <span id="id_editlink"></span>
+      </div>
+    </div>
+  </div>
+  <span lift="embed?what=/templates-hidden/parts/footer"></span>
+</div>
